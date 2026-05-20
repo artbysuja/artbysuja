@@ -8,47 +8,47 @@
 const paintings = [
   {
     id: 1,
-    title: "Stairway through Forest",
-    category: "landscape",
+    title: "Flowers in a vase",
+    category: "still-life",
     size: "30 × 45 cm",
     medium: "Acrylic on canvas",
-    price: "₹3,500",
+    price: "₹4,000",
     image: "images/painting-1.jpg",
     sold: true
   },
   {
     id: 2,
+    title: "Sunset Lake View",
+    category: "landscape",
+    size: "30 × 45 cm",
+    medium: "Acrylic on canvas",
+    price: "₹2,000",
+    image: "images/painting-2.jpg",
+    sold: true
+  },
+  {
+    id: 3,
+    title: "Stairway through Forest",
+    category: "landscape",
+    size: "30 × 45 cm",
+    medium: "Acrylic on canvas",
+    price: "₹3,500",
+    image: "images/painting-3.jpg",
+    sold: true
+  },
+  {
+    id: 4,
     title: "Cherry Blossoms",
     category: "floral",
     size: "30 × 45 cm",
     medium: "Acrylic on canvas",
     price: "₹2,800",
-    image: "images/painting-2.jpg",
-    sold: false
-  },
-  {
-    id: 3,
-    title: "Bridge in Fall",
-    category: "floral",
-    size: "20 × 25 cm",
-    medium: "Acrylic on canvas",
-    price: "₹1,500",
-    image: "images/painting-3.jpg",
-    sold: false
-  },
-  {
-    id: 4,
-    title: "Yellow Bird",
-    category: "bird",
-    size: "20 × 25 cm",
-    medium: "Acrylic on canvas",
-    price: "₹2,000",
     image: "images/painting-4.jpg",
     sold: false
   },
   {
     id: 5,
-    title: "Violet Flowers",
+    title: "Bridge in Fall",
     category: "floral",
     size: "20 × 25 cm",
     medium: "Acrylic on canvas",
@@ -58,23 +58,23 @@ const paintings = [
   },
   {
     id: 6,
-    title: "Flowers in a vase",
-    category: "still-life",
-    size: "30 × 45 cm",
+    title: "Yellow Bird",
+    category: "bird",
+    size: "20 × 25 cm",
     medium: "Acrylic on canvas",
-    price: "₹4,000",
+    price: "₹2,000",
     image: "images/painting-6.jpg",
-    sold: true
+    sold: false
   },
   {
     id: 7,
-    title: "Sunset Lake View",
-    category: "landscape",
-    size: "30 × 45 cm",
+    title: "Violet Flowers",
+    category: "floral",
+    size: "20 × 25 cm",
     medium: "Acrylic on canvas",
-    price: "₹2,000",
+    price: "₹1,500",
     image: "images/painting-7.jpg",
-    sold: true
+    sold: false
   },
   {
     id: 8,
@@ -88,11 +88,11 @@ const paintings = [
   },
   {
     id: 11,
-    title: "Orange bird",
+    title: "Amber Bird",
     category: "bird",
-    size: "45 x 30 cm",
-    medium: "Acrylic on canvas",
-    price: "Unspecified",
+    size: "Unspecified",
+    medium: "Acrylic on Wood",
+    price: "₹1,500",
     image: "images/painting-11.jpg",
     sold: false
   },
@@ -141,18 +141,18 @@ const paintings = [
     title: "Painting 18",
     category: "floral",
     size: "unspecified",
-    medium: "Acrylic on canvas",
+    medium: "Acrylic on Wood",
     price: "Unspecified",
     image: "images/painting-18.jpg",
     sold: false
   },
   {
     id: 19,
-    title: "Painting 19",
+    title: "Orange bird",
     category: "bird",
-    size: "unspecified",
+    size: "20 × 25 cm",
     medium: "Acrylic on canvas",
-    price: "Unspecified",
+    price: "₹2,000",
     image: "images/painting-19.jpg",
     sold: false
   },
@@ -181,7 +181,7 @@ const paintings = [
     title: "Painting 22",
     category: "floral",
     size: "unspecified",
-    medium: "Acrylic on canvas",
+    medium: "Acrylic on Wood",
     price: "Unspecified",
     image: "images/painting-22.jpg",
     sold: false
@@ -258,7 +258,7 @@ const paintings = [
   },
   {
     id: 30,
-    title: "Painting 30",
+    title: "Yellow flowers in the Night Sky",
     category: "floral",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -291,7 +291,7 @@ const paintings = [
     title: "Painting 33",
     category: "abstract",
     size: "unspecified",
-    medium: "Acrylic on canvas",
+    medium: "Acrylic on Wood",
     price: "Unspecified",
     image: "images/painting-33.jpg",
     sold: false
@@ -311,7 +311,7 @@ const paintings = [
     title: "Painting 35",
     category: "floral",
     size: "unspecified",
-    medium: "Acrylic on canvas",
+    medium: "Acrylic on Wood",
     price: "Unspecified",
     image: "images/painting-35.jpg",
     sold: false
@@ -348,11 +348,11 @@ const paintings = [
   },
   {
     id: 39,
-    title: "Painting 39",
+    title: "Red bird",
     category: "bird",
     size: "20 × 25 cm",
     medium: "Acrylic on canvas",
-    price: "Unspecified",
+    price: "₹2,000",
     image: "images/painting-39.jpg",
     sold: false
   },
@@ -471,7 +471,7 @@ const paintings = [
     title: "Painting 51",
     category: "landscape",
     size: "unspecified",
-    medium: "Acrylic on canvas",
+    medium: "Acrylic on Wood",
     price: "Unspecified",
     image: "images/painting-51.jpg",
     sold: false
