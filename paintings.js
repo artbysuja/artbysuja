@@ -118,7 +118,7 @@ const paintings = [
   },
   {
     id: 15,
-    title: "Unnamed",
+    title: "Painting 15",
     category: "landscape",
     size: "45 x 30 cm",
     medium: "Acrylic on canvas",
@@ -128,7 +128,7 @@ const paintings = [
   },
   {
     id: 17,
-    title: "Unnamed",
+    title: "Painting 17",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -138,7 +138,7 @@ const paintings = [
   },
   {
     id: 18,
-    title: "Unnamed",
+    title: "Painting 18",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -148,7 +148,7 @@ const paintings = [
   },
   {
     id: 19,
-    title: "Unnamed",
+    title: "Painting 19",
     category: "bird",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -158,7 +158,7 @@ const paintings = [
   },
   {
     id: 20,
-    title: "Unnamed",
+    title: "Painting 20",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -168,7 +168,7 @@ const paintings = [
   },
   {
     id: 21,
-    title: "Unnamed",
+    title: "Painting 21",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -178,7 +178,7 @@ const paintings = [
   },
   {
     id: 22,
-    title: "Unnamed",
+    title: "Painting 22",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -188,7 +188,7 @@ const paintings = [
   },
   {
     id: 23,
-    title: "Unnamed",
+    title: "Painting 23",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -198,7 +198,7 @@ const paintings = [
   },
   {
     id: 24,
-    title: "Unnamed",
+    title: "Painting 24",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -208,7 +208,7 @@ const paintings = [
   },
   {
     id: 25,
-    title: "Unnamed",
+    title: "Painting 25",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -218,7 +218,7 @@ const paintings = [
   },
   {
     id: 26,
-    title: "Unnamed",
+    title: "Painting 26",
     category: "landscape",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -228,7 +228,7 @@ const paintings = [
   },
   {
     id: 27,
-    title: "Unnamed",
+    title: "Painting 27",
     category: "bird",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -238,7 +238,7 @@ const paintings = [
   },
   {
     id: 28,
-    title: "Unnamed",
+    title: "Painting 28",
     category: "abstract",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -248,7 +248,7 @@ const paintings = [
   },
   {
     id: 29,
-    title: "Unnamed",
+    title: "Painting 29",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -258,7 +258,7 @@ const paintings = [
   },
   {
     id: 30,
-    title: "Unnamed",
+    title: "Painting 30",
     category: "floral",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -268,7 +268,7 @@ const paintings = [
   },
   {
     id: 31,
-    title: "Unnamed",
+    title: "Painting 31",
     category: "floral",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -278,7 +278,7 @@ const paintings = [
   },
   {
     id: 32,
-    title: "Unnamed",
+    title: "Painting 32",
     category: "floral",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -288,7 +288,7 @@ const paintings = [
   },
   {
     id: 33,
-    title: "Unnamed",
+    title: "Painting 33",
     category: "abstract",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -298,7 +298,7 @@ const paintings = [
   },
   {
     id: 34,
-    title: "Unnamed",
+    title: "Painting 34",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -308,7 +308,7 @@ const paintings = [
   },
   {
     id: 35,
-    title: "Unnamed",
+    title: "Painting 35",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -318,7 +318,7 @@ const paintings = [
   },
   {
     id: 36,
-    title: "Unnamed",
+    title: "Painting 36",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -328,7 +328,7 @@ const paintings = [
   },
   {
     id: 37,
-    title: "Unnamed",
+    title: "Painting 37",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -338,7 +338,7 @@ const paintings = [
   },
   {
     id: 38,
-    title: "Unnamed",
+    title: "Painting 38",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -348,7 +348,7 @@ const paintings = [
   },
   {
     id: 39,
-    title: "Unnamed",
+    title: "Painting 39",
     category: "bird",
     size: "20 × 25 cm",
     medium: "Acrylic on canvas",
@@ -358,7 +358,7 @@ const paintings = [
   },
   {
     id: 40,
-    title: "Unnamed",
+    title: "Painting 40",
     category: "landscape",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -368,7 +368,7 @@ const paintings = [
   },
   {
     id: 41,
-    title: "Unnamed",
+    title: "Painting 41",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -378,7 +378,7 @@ const paintings = [
   },
   {
     id: 42,
-    title: "Unnamed",
+    title: "Painting 42",
     category: "still-life",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -388,7 +388,7 @@ const paintings = [
   },
   {
     id: 43,
-    title: "Unnamed",
+    title: "Painting 43",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -398,7 +398,7 @@ const paintings = [
   },
   {
     id: 44,
-    title: "Unnamed",
+    title: "Painting 44",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -408,7 +408,7 @@ const paintings = [
   },
   {
     id: 45,
-    title: "Unnamed",
+    title: "Painting 45",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -418,7 +418,7 @@ const paintings = [
   },
   {
     id: 46,
-    title: "Unnamed",
+    title: "Painting 46",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -428,7 +428,7 @@ const paintings = [
   },
   {
     id: 47,
-    title: "Unnamed",
+    title: "Painting 47",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -438,7 +438,7 @@ const paintings = [
   },
   {
     id: 48,
-    title: "Unnamed",
+    title: "Painting 48",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -448,7 +448,7 @@ const paintings = [
   },
   {
     id: 49,
-    title: "Unnamed",
+    title: "Painting 49",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -458,7 +458,7 @@ const paintings = [
   },
   {
     id: 50,
-    title: "Unnamed",
+    title: "Painting 50",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -468,7 +468,7 @@ const paintings = [
   },
   {
     id: 51,
-    title: "Unnamed",
+    title: "Painting 51",
     category: "landscape",
     size: "unspecified",
     medium: "Acrylic on canvas",
@@ -478,7 +478,7 @@ const paintings = [
   },
   {
     id: 52,
-    title: "Unnamed",
+    title: "Painting 52",
     category: "floral",
     size: "30 x 45 cm",
     medium: "Acrylic on canvas",
@@ -488,7 +488,7 @@ const paintings = [
   },
   {
     id: 53,
-    title: "Unnamed",
+    title: "Painting 53",
     category: "floral",
     size: "unspecified",
     medium: "Acrylic on canvas",
