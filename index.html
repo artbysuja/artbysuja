@@ -538,6 +538,7 @@
   <button class="filter-btn" data-filter="still-life">Still Life</button>
   <button class="filter-btn" data-filter="landscape">Landscapes</button>
   <button class="filter-btn" data-filter="bird">Birds</button>
+  <button class="filter-btn" data-filter="abstract">Abstract</button>
 </div>
 
 <!-- GALLERY -->
@@ -594,52 +595,52 @@
   // To add a painting: copy one object, fill in the fields, add the
   // image file to the same folder as index.html.
   //
-  // category options: landscape | floral | abstract | portrait | still-life
+  // category options: landscape | floral | still-life | bird | abstract
   // For sold paintings, set sold: true
   const paintings = [
     {
       id: 1,
-      title: "Flowers in a vase",
-      category: "still-life",
-      size: "30 × 45 cm",
-      medium: "Acrylic on canvas",
-      price: "₹4,000",
-      image: "images/painting-1.jpg",
-      sold: true
-    },
-    {
-      id: 2,
-      title: "Sunset Lake View",
-      category: "landscape",
-      size: "30 × 45 cm",
-      medium: "Acrylic on canvas",
-      price: "₹2,000",
-      image: "images/painting-2.jpg",
-      sold: true
-    },
-    {
-      id: 3,
       title: "Stairway through Forest",
       category: "landscape",
       size: "30 × 45 cm",
       medium: "Acrylic on canvas",
       price: "₹3,500",
-      image: "images/painting-3.jpg",
+      image: "images/painting-1.jpg",
       sold: true
     },
     {
-      id: 4,
+      id: 2,
       title: "Cherry Blossoms",
       category: "floral",
       size: "30 × 45 cm",
       medium: "Acrylic on canvas",
       price: "₹2,800",
+      image: "images/painting-2.jpg",
+      sold: false
+    },
+    {
+      id: 3,
+      title: "Bridge in Fall",
+      category: "floral",
+      size: "20 × 25 cm",
+      medium: "Acrylic on canvas",
+      price: "₹1,500",
+      image: "images/painting-3.jpg",
+      sold: false
+    },
+    {
+      id: 4,
+      title: "Yellow Bird",
+      category: "bird",
+      size: "20 × 25 cm",
+      medium: "Acrylic on canvas",
+      price: "₹2,000",
       image: "images/painting-4.jpg",
       sold: false
     },
     {
       id: 5,
-      title: "Bridge in Fall",
+      title: "Violet Flowers",
       category: "floral",
       size: "20 × 25 cm",
       medium: "Acrylic on canvas",
@@ -649,23 +650,23 @@
     },
     {
       id: 6,
-      title: "Yellow Bird",
-      category: "bird",
-      size: "20 × 25 cm",
+      title: "Flowers in a vase",
+      category: "still-life",
+      size: "30 × 45 cm",
       medium: "Acrylic on canvas",
-      price: "₹2,000",
+      price: "₹4,000",
       image: "images/painting-6.jpg",
-      sold: false
+      sold: true
     },
     {
       id: 7,
-      title: "Violet Flowers",
-      category: "floral",
-      size: "20 × 25 cm",
+      title: "Sunset Lake View",
+      category: "landscape",
+      size: "30 × 45 cm",
       medium: "Acrylic on canvas",
-      price: "₹1,500",
+      price: "₹2,000",
       image: "images/painting-7.jpg",
-      sold: false
+      sold: true
     },
     {
       id: 8,
@@ -681,10 +682,10 @@
       id: 11,
       title: "Orange bird",
       category: "bird",
-      size: "25 cm",
+      size: "45 x 30 cm",
       medium: "Acrylic on canvas",
-      price: "₹1,500",
-      image: "images/painting-8.jpg",
+      price: "Unspecified",
+      image: "images/painting-11.jpg",
       sold: false
     },
     {
@@ -941,7 +942,7 @@
       id: 39,
       title: "Unnamed",
       category: "bird",
-      size: "unspecified",
+      size: "20 × 25 cm",
       medium: "Acrylic on canvas",
       price: "Unspecified",
       image: "images/painting-39.jpg",
